@@ -1,0 +1,15 @@
+schema_version = "1.0.0"
+
+id = "blender_mcp"
+version = "1.8.0"
+name = "Blender MCP"
+tagline = "Expose Blender to MCP clients over a local socket"
+maintainer = "keycab-3dprint"
+type = "add-on"
+
+license = ["SPDX:MIT"]
+blender_version_min = "4.2.0"
+
+[permissions]
+network = "Runs a loopback-only command server on 127.0.0.1 for the MCP client"
+files = "Writes viewport screenshots and exported meshes to disk"

@@ -1,0 +1,11 @@
+# Blender's rolling backup of the previous save
+*.blend1
+
+# Headless server pid + logs (tools/blender_server.ps1)
+.blender-mcp/
+
+__pycache__/
+*.pyc
+
+# Visual brainstorming companion sessions
+.superpowers/
